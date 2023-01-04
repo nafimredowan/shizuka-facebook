@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="img/import.png" type="image/x-icon">
+        <title>Sign In</title>
+        <style>
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            form{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                text-align: center;
+            }
+            input{
+                width: 20%;
+                border-radius: 4px;
+                height: 30px;
+                font-size: 12px;
+            }
+            #loginkorbo{
+                color: antiquewhite;
+                border-color: rgb(55,108,187);
+                font-size: large;
+            }
+            a.box-link {
+               display: block;
+                width: 300px;
+                height: 50px;
+                background-color: rgb(29, 180, 41);
+                line-height: 50px;
+                color: antiquewhite;
+                text-align: center;
+                margin: 0 auto;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                border-radius: 4px;
+            }
+</style>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <img src="img/download.jpg" alt="" width="100">
+            <h1>Sign In</h1><hr>
+            <form action="">
+                <label for="user">Username:</label><br>
+                <input type="text" name="user" placeholder="Enter your username" required><br><br>
+                <label for="pass">Password:</label><br>
+                <input type="password" name="pass" placeholder="Enter your password" required><br><br>
+                <input id="loginkorbo" type="submit" value="Sign In" style="background-color:rgb(55, 108, 187);"><br><br>
+                <!-- <a href="page/reset.html" target="_blank">Forgotten Password?</a><br>
+               > <a class="box-link" href="page/register.html" target="_blank">Create New Account</a -->
+            </form> 
+            <a href="page/reset.html" target="_blank">Forgotten Password?</a><br><br>
+            <a class="box-link" href="page/register.html" target="_blank">Create New Account</a>
+        </div>
+    </body>
+</html>
